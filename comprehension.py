@@ -33,7 +33,7 @@ while guesses_taken < 6:
     # Wartość zmiennej zwiekszona o 1.
     # Add 1 to the value of the variable.
     guesses_taken += 1
-    # Jeśli "guess" mniejsze niż "number", wykonaj kod z wcięcięm pod spodem.
+    # Jeśli "guess" mniejsze niż "number", wykonaj kod z wcięciem pod spodem.
     # When "guess" smaller than "number", execute the indented code below.
     if guess < number:
         # Wypisz 'Your guess is too low.'.
