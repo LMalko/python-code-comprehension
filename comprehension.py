@@ -7,7 +7,7 @@ guesses_taken = 0
 # Wypisz "Hello! What is your name?".
 # Print string "Hello! What is your name?".
 print('Hello! What is your name?')
-# Przypisz odpowiedz do zmiennej "myName".
+# Przypisz wprowadzone dane do zmiennej "myName".
 # Assign user's input to "myName" variable.
 myName = input()
 # Przypisz losową liczbę pomiędzy 1 a 20 do zmiennej "number".
