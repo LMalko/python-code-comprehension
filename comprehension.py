@@ -1,7 +1,5 @@
-# Importujemy moduł "random" z biblioteki standardowej. Umożliwia dostęp do funkcji,
-# które pozwalają na generowanie losowych liczb.
-# Import module "random" from Standard Library. It provides access to functions that allows us to generate
-# random numbers.
+# Importuj moduł "random".
+# Import "random" module.
 import random
 # Przypisz 0 do zmiennej "guesses_taken".
 # Assign 0 to "guesses_taken" variable.
