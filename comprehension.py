@@ -13,16 +13,16 @@ myName = input()
 # Przypisz losową liczbę pomiędzy 1 a 20 do zmiennej "number".
 # Assign random number between 1 and 20 to "number" variable.
 number = random.randint(1, 20)
-# Wydrukuj napis. Miejsce nazwy zmiennej zajmie jej aktualna wartość.
-# Print string with the current value of the variable "myName".
+# Wydrukuj napis z wartością zmiennej "myName".
+# Print string with the value of the variable "myName".
 print('Well, ' + myName + ', I am thinking of a number between 1 and 20.')
-# Pętla "while" będzie wykonywana do momentu kiedy zmienna "guesses_taken" nie bedzie mniejsza niż 6.
-# "While" loop will be executed as long as the value of "guesses_taken" is below 6.
+# Wykonuj pętlę aż zmienna "guesses_taken" nie bedzie mniejsza niż 6.
+# Execute "while" loop as long as the value of "guesses_taken" is below 6.
 while guesses_taken < 6:
     # Wypisz 'Take a guess.'.
     # Print string 'Take a guess.'.
     print('Take a guess.')
-    # Przypisz odpowiedz do zmiennej "guess".
+    # Przypisz wprowadzone dane do zmiennej "guess".
     # Assign user's input to "guess" variable.
     guess = input()
     # Zmień typ wartości zmiennej na liczbę.
