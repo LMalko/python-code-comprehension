@@ -31,25 +31,25 @@ while guesses_taken < 6:
     # Wartość zmiennej zwiekszona o 1.
     # Add 1 to the value of the variable.
     guesses_taken += 1
-    # Jeśli "guess" mniejsze niż "number", wykonaj kod z wcięciem pod spodem.
+    # Jeśli "guess" mniejsze niż "number", odczytaj kod z wcięciem pod spodem.
     # When "guess" smaller than "number", execute the indented code below.
     if guess < number:
         # Wypisz 'Your guess is too low.'.
         # Print string 'Your guess is too low.'.
         print('Your guess is too low.')
-    # Jeśli "guess" większe niż "number", wykonaj kod z wcięciem pod spodem.
+    # Jeśli "guess" większe niż "number", odczytaj kod z wcięciem pod spodem.
     # When "guess" bigger than "number", execute the indented code below.
     if guess > number:
         # Wypisz 'Your guess is too high.'.
         # Print string 'Your guess is too high.'.
         print('Your guess is too high.')
-    # Jeśli "guess" jest równe "number", wykonaj kod z wcięciem pod spodem.
+    # Jeśli "guess" jest równe "number", odczytaj kod z wcięciem pod spodem.
     # When "guess" equals "number", execute the indented code below.
     if guess == number:
         # Wyjdz z pętli.
         # Exit out of the loop.
         break
-# Jeśli "guess" jest równe "number", wykonaj kod z wcięciem pod spodem.
+# Jeśli "guess" jest równe "number", odczytaj kod z wcięciem pod spodem.
 # When "guess" equals "number", execute the indented code below.
 if guess == number:
     # Zmień typ wartości zmiennej "guesses_taken" na napis.
@@ -58,7 +58,7 @@ if guess == number:
     # Wydrukuj napis ze wartościami zmiennych "myName" i "guesses_taken".
     # Print string with values of the variables "myName" and "guesses_taken".
     print('Good job, ' + myName + '! You guessed my number in ' + guesses_taken + ' guesses!')
-# Jeśli "guess" nie jest równe "number", wykonaj kod z wcięciem pod spodem.
+# Jeśli "guess" nie jest równe "number", odczytaj kod z wcięciem pod spodem.
 # When "guess" is not equal to "number", execute the indented code below.
 if guess != number:
     # Zmień typ wartości zmiennej "number" na napis.
